@@ -8,7 +8,7 @@ import os
 # 1. Load or create a dataset for this project
 print("Fetching MNIST dataset...")
 # Using a subset for speed in this script example
-X, y = fetch_openml('mnist_784', version=1, return_X_y=True, as_frame=False, parser='auto')
+X, y = fetch_openml('mnist_784', version=1, return_X_y=True, as_frame=False, parser='liac-arff')
 X = X / 255.0  # Normalize
 
 # Using a smaller subset to train faster for demonstration
