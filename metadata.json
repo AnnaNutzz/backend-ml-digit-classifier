@@ -1,0 +1,6 @@
+{
+  "name": "MNIST Digit Classifier",
+  "description": "A high-precision handwritten digit recognition app using machine learning and a drawing interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
